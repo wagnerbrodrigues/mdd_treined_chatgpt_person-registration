@@ -2,8 +2,6 @@ Person Registration with Token
 This project is a simple web application for registering people with an ID and name, generating an MD5 token for each person, and storing this information in a MongoDB database. The application is built using Flask and Docker, and it was generated with the assistance of ChatGPT using Model-Driven Development (MDD), with the models stored in the diagrams folder. The project was created using a custom-trained ChatGPT model, which you can find here.
 
 Project Structure
-arduino
-Copiar código
 person_registration/
 ├── app.py
 ├── Dockerfile
@@ -13,6 +11,8 @@ person_registration/
 ├── templates/
 │   └── index.html
 └── docker-compose.yml
+
+
 Getting Started
 Prerequisites
 Docker
